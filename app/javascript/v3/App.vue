@@ -43,6 +43,7 @@ export default {
 @tailwind components;
 @tailwind utilities;
 
+@import 'shared/assets/fonts/nunito';
 @import 'shared/assets/fonts/plus-jakarta';
 @import 'shared/assets/stylesheets/colors';
 @import 'shared/assets/stylesheets/spacing';
@@ -51,8 +52,9 @@ export default {
 
 html,
 body {
-  font-family: 'PlusJakarta', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: 'Nunito', 'PlusJakarta', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
+    sans-serif;
   @apply h-full w-full;
 
   input,
@@ -66,6 +68,6 @@ body {
 }
 
 .tooltip {
-  @apply bg-slate-900 text-white py-1 px-2 z-40 text-xs rounded-md dark:bg-slate-300 dark:text-slate-900;
+  @apply bg-red-500 text-white py-1 px-2 z-40 text-xs ml-1 rounded-md dark:bg-red-300 dark:text-slate-900;
 }
 </style>

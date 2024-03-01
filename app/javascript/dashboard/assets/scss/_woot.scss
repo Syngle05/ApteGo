@@ -2,6 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import 'shared/assets/fonts/nunito';
 @import 'shared/assets/fonts/plus-jakarta';
 @import 'shared/assets/stylesheets/animations';
 @import 'shared/assets/stylesheets/colors';
@@ -73,5 +74,5 @@
 @import 'utility-helpers';
 
 .tooltip {
-  @apply bg-slate-900 text-white py-1 px-2 z-40 text-xs rounded-md dark:bg-slate-200 dark:text-slate-900;
+  @apply bg-slate-900 text-white py-1 px-2 z-40 text-xs ml-1 rounded-md dark:bg-slate-200 dark:text-slate-900;
 }

@@ -136,7 +136,7 @@
     }
 
     .bubble {
-      @apply ml-auto break-words rounded-l-lg rounded-r;
+      @apply ml-auto break-words rounded-l-2xl rounded-r-2xl;
 
       &.is-private {
         @apply text-black-900 dark:text-white relative border border-solid bg-yellow-100 dark:bg-yellow-700 border-yellow-200 dark:border-yellow-600/25;
